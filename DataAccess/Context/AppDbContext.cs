@@ -16,6 +16,7 @@ namespace DataAccess.Context
         }
         public DbSet<Product> Products { get; set; }
         public DbSet <ErrorLog> ErrorLogs { get; set; }
+        public DbSet <PerformanceLog> PerformanceLogs { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
